@@ -1,0 +1,28 @@
+.navbar {
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fde500;
+}
+
+.navbar::after {
+  position: fixed;
+  background-color: #fde500;
+}
+
+.active {
+  opacity: 0.5;
+}
+
+.link:hover {
+  opacity: 0.6;
+}
+
+.view_more1:hover {
+  opacity: 0.9;
+}
+
+.view_more2:hover {
+  opacity: 0.6;
+}
