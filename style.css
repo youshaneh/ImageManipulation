@@ -23,10 +23,6 @@
   opacity: 0.6;
 }
 
-.view_more1:hover {
-  opacity: 0.9;
-}
-
-.view_more2:hover {
-  opacity: 0.6;
+.view_more1:hover, .view_more2:hover {
+  filter: invert(15%);
 }
