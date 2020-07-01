@@ -11,6 +11,10 @@
   background-color: #fde500;
 }
 
+.footer{
+  background-color: #000000;
+}
+
 .active {
   opacity: 0.5;
 }
